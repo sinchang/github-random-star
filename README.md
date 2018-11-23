@@ -13,8 +13,7 @@ npm i github-random-star
 ```js
 const githubRandomStar = require('github-random-star')
 
-githubRandomStar()
-//=> foo
+githubRandomStar('sinchang')
 ```
 
 ## Contributing
