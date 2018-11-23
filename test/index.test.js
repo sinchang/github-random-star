@@ -22,8 +22,8 @@ test('error', async () => {
   })
 })
 
-test('username required', async () => {
+test('username must be a string', async () => {
   return githubRandomStar('').catch(e => {
-    expect(e.message).toMatch('username required')
+    expect(e.message).toMatch('Expected username to be a string')
   })
 })

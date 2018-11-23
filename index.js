@@ -2,8 +2,8 @@ const Tokio = require('tokio')
 
 module.exports = username => {
   return new Promise((resolve, reject) => {
-    if (!username) {
-      return reject(new Error('username required'))
+    if (!username || typeof username !== 'string') {
+      return reject(new Error('Expected username to be a string'))
     }
 
     const tokio = new Tokio({
