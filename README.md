@@ -1,6 +1,6 @@
 # github-random-star
 
-[![NPM version](https://img.shields.io/npm/v/github-random-star.svg?style=flat)](https://npmjs.com/package/github-random-star) [![NPM downloads](https://img.shields.io/npm/dm/github-random-star.svg?style=flat)](https://npmjs.com/package/github-random-star) [![Travis CI](https://travis-ci.org/sinchang/github-random-star.svg?branch=master)](https://travis-ci.org/sinchang/github-random-star) [![codecov](https://codecov.io/gh/sinchang/github-random-star/branch/master/graph/badge.svg)](https://codecov.io/gh/sinchang/github-random-star)
+[![NPM version](https://img.shields.io/npm/v/github-random-star.svg?style=flat)](https://npmjs.com/package/github-random-star) [![NPM downloads](https://img.shields.io/npm/dm/github-random-star.svg?style=flat)](https://npmjs.com/package/github-random-star) [![Travis CI](https://api.travis-ci.org/sinchang/github-random-star.svg?branch=master)](https://travis-ci.org/sinchang/github-random-star)
 
 ## Install
 
