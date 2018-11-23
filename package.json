@@ -1,0 +1,40 @@
+{
+  "name": "github-random-star",
+  "version": "0.0.0",
+  "description": "Get a random star of github user",
+  "repository": {
+    "url": "sinchang/github-random-star",
+    "type": "git"
+  },
+  "main": "index.js",
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "scripts": {
+    "test:cov": "jest --coverage && npm run lint",
+    "test": "npm run lint && jest",
+    "lint": "standard",
+    "semantic-release": "semantic-release"
+  },
+  "author": "sinchang <sinchangwen@gmail.com>",
+  "license": "MIT",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "cac": "^4.0.0",
+    "tokio": "^0.1.2"
+  },
+  "devDependencies": {
+    "jest-cli": "^22.1.4",
+    "semantic-release": "^15.12.1",
+    "standard": "^10.0.0"
+  }
+}
